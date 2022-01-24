@@ -1,10 +1,10 @@
-Setup
+**Setup**
 
 Build an image for our build-environment
 
     docker build buildenv -t myos-buildenv
 
-Build
+**Build**
 
 Enter build environment
 
@@ -19,7 +19,7 @@ Build for x86 (other architectures may come in the future):
 
 To leave the build environment, enter exit
 
-Emulate
+**Emulate**
 
 You can emulate your operating system using Qemu (Don't forget to add gemu to your path!)
 
@@ -28,4 +28,4 @@ You can emulate your operating system using Qemu (Don't forget to add gemu to yo
 
 Alternatively, you should be able to load the operating system on a USB drive and boot into it when you turn on your computer. (I have not tested this yet).
 
-Cleanup
+**Cleanup**
